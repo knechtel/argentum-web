@@ -36,6 +36,7 @@ public class ArgentumBean implements Serializable {
 	private Date filtroDataAte;
 
 	public ArgentumBean() {
+		System.ou.println("test");
 		this.negociacoes = new ClienteWebService().getNegociacoes();
 		geraGrafico();
 	}
